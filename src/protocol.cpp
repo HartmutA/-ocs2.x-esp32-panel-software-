@@ -82,6 +82,8 @@ void PROTOCOL::loop()
         DPRINTLN("Autosquare Running:\t" + String(dataToClient.autosquareRunning));
         DPRINTLN("Spindel State:\t\t" + String(dataToClient.spindelState));
         DPRINTLN("Alarm State:\t\t" + String(dataToClient.alarmState));
+        DPRINTLN("Button 1 (" + String(BUTTON_1) + "): \t" + String(dataToControl.output4));
+        DPRINTLN("Button 2 (" + String(BUTTON_2) + "): \t" + String(dataToControl.ena));
     }
 }
 
